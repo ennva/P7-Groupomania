@@ -59,7 +59,6 @@ Dans le dossier `/frontend` démarrez `npm install` pour installer toutes les d�
     ```
     REACT_APP_API_URL=http://localhost:4200
     ```
-
 ### Development server
 
 Démarrer `npm start` pour avoir accès au serveur de développement. L'application va se recharger automatiquement si vous modifiez un fichier source.
