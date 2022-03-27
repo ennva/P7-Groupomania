@@ -23,8 +23,23 @@ Le backend a été crée avec **Node.js**, **Express.js** et **MySQL** comme bas
     <br />
 -   Démarrer `npm install` pour installer toutes les dependencies du backend.
     <br />
--   Dans le fichier `.env`, veuillez rentrer le host, les identifiants de votre utilisateur admin et le nom de la base de données que vous souhaitez créer.
+-   Créer un fichier `.env` dans le dossier `/backend`, veuillez rentrer le host, les identifiants de votre utilisateur admin et le nom de la base de données que vous souhaitez créer.
     <br />
+    Esemple du ficher `.env`
+    ```
+    PORT=4200
+
+
+    SQL_HOST=localhost
+    SQL_USER=nom-utilisateur-admin
+    SQL_PASSWD=mot-de-passe-admin
+    SQL_DB=nom-de-la-base-de-données
+
+
+    JWT_SECRET=votre_code_secret
+
+    JWT_EXPIRES=24h
+    ```
 -   Écrivez dans la ligne de commande `node config_db.js` pour configurer la base de données.
 
 ### Development server
