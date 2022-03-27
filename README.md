@@ -53,6 +53,12 @@ Le frontend a été crée avec React.js
 ### Installation
 
 Dans le dossier `/frontend` démarrez `npm install` pour installer toutes les dépendances du frontend.
+    <br />
+-   Créer un fichier `.env` dans le dossier `/frontend`, veuillez entrer l'URL du backend comme suit
+    <br />
+    ```
+    REACT_APP_API_URL=http://localhost:4200
+    ```
 
 ### Development server
 
